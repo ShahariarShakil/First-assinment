@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+
+}
+
+/* common css end================================= */
+
+
+
+.logo {
+    width: 25%;
+}
+
+.logo img{
+    width: 30%;
+    height: 30%;
+}
+
+.menu {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+#main_menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 40px;
+}
+
+#main_menu .menu ul {
+    display: flex;
+    justify-content: end;
+}
+
+#main_menu .menu ul a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #151414;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+#main_menu .menu ul a:hover {
+    color: #f15b22;
+    transition: .4s;
+}
+
+/* banner part start here==============================*/
+
+#banner_part {
+    padding-top: 250px;
+    padding-bottom: 155px;
+    background: url(../images/banner/banner1.png);
+    text-align: right;
+}
+
+#banner_part h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    color: #151414;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#banner_part p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #444343;
+    line-height: 26px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#banner_part a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    color: #fdf3f3;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 15px 25px;
+
+}
+
+/* banner part end here==============================*/
+
+/* failure part start */
+#failiers_part .main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 131px;
+    padding-bottom: 131px;
+}
+
+#failiers_part .main .item .text_part {
+    padding-top: 200px;
+    padding-right: 180px;
+}
+
+#failiers_part .main .item .image_part img{
+   width: 100%;
+}
+
+#failiers_part .main .item .text_part .cheak_part {
+    margin-top: 10px;
+}
+
+#failiers_part p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 17px;
+    line-height: 26px;
+    color: #151414;
+    margin-top: 10px;
+}
+
+#failiers_part i {
+    color: #16D887;
+}
+
+
+
+#failiers_part .main .item .heading_part h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #151414;
+    width: 288px;
+    height: 94px;
+    margin-bottom: 15px;
+}
+
+#failiers_part .main .item .heading_part p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 30px;
+}
+
+
+/* failure part end */
+
+/* plan part start here ==============*/
+#plan_part .heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#plan_part {
+    padding-bottom: 100px;
+}
+
+#plan_part .heading h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+#plan_part .main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#plan_part .main h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+#plan_part .main h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* plan part end here============ */
+
+/* overlay part start here */
+.image-container {
+    width: 1140px;
+    height: 300px;
+    margin: 130px auto;
+    background: linear-gradient(90deg, #f15b22 0%, rgba(0, 95, 172, 0) 100%),
+        url(../images/watch.png);
+    border-radius: 8px;
+}
+
+.image-container .section-title {
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.image-container .section-title h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.image-container .section-title button {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid;
+    background-color: white;
+    color: #F15B22;
+}
+
+
+
+/* overlay part end here */
+
+#footer {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #151414;
+}
+
+#footer .future_item {
+    display: flex;
+}
+
+#footer .main {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#footer .main .item h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin: 10px 0;
+}
+
+#footer .main .item p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+    width: 519px;
+}
+
+#footer .main .item label input {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#footer .main .item .subscribe a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100px;
+    border: 1px solid;
+    background-color: white;
+    color: #F15B22;
+}
+
+#footer .main .item .picci h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #F8F8F8;
+    margin: 10px 0;
+}
+
+#footer .main .item a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#footer .main .item i {
+    margin: 5px 5px 5px 5px;
+    color: red;
+}
+
+#footer .main .item span i {
+    color: blue;
+}
